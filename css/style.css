@@ -69,9 +69,8 @@ main section, .header-top, .header-bottom, footer{
 /* nav */
 nav{
   position: fixed;
-  left: 0;
+  width: 100%;
   z-index: 100;
-  background-color: #fff;
 }
 .mm-nav {
   height: 80px;
