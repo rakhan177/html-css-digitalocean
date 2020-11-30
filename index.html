@@ -7,49 +7,96 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
   <body>
     <!-- header -->
     <header>
       <!-- nav -->
       <nav>
-        dcgfvgjbh
+        <div class="container mm-nav">
+          <img src="img/logo-do.webp">
+          <ul class="cont-nav-left mm-hidden">
+            <li><a href="#">Products<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <ul>
+                <li><a href="#">Prodotto1</a></li>
+                <li><a href="#">Prodotto2</a></li>
+                <li><a href="#">Prodotto177</a></li>
+                <li><a href="#">Prodotto12</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Community<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <ul class="list-2">
+                <li><a href="#">Comunità montana</a></li>
+                <li><a href="#">Comunità marittima</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+          <ul class="cont-nav-right mm-hidden">
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Support<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <ul>
+                <li><a href="#">Contatti</a></li>
+                <li><a href="#">Reclami</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Login</a></li>
+            <li><a class="btn btn-primary mm-button" href="#" role="button">Sing up</a></li>
+          </ul>
+
+
+
+
+          <div class="mm-burger"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="mm-burger-list">
+              <ul>
+                <li>dguvcuevcu</li>
+              </ul>
+            </div>
+
+
+
+
+          </a>
+
+
+          </div>
+        </div>
+
       </nav>
-      <!-- /nav -->
-      <!-- header-top -->
+        <!-- header-top -->
       <div class="header-top">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-white">
-              <div>
-                <h1>The simplest cloud platform for developers & teams</h1>
-                <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or the thousand.</p>
-              </div>
+            <div class="col-xs-12 col-sm-7 mrgt-20">
+              <h1 class="mm-col-white">The simplest cloud platform for developers & teams</h1>
+              <p class="mm-col-white mrgt-20">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or the thousand.</p>
             </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="box2-hd-top">
-                <h2>Deploy your app in seconds.<br><span>Get started now</span></h2>
-                <form action="index.html" method="post">
+            <div class="col-xs-12 col-sm-5">
+              <div class="header-box mm-bg-col-w text-center">
+                <h3>Deploy your app in seconds.<br><span class="mm-col-blue">Get started now</span></h3>
+                <form class="mrgt-10" action="index.html" method="post">
                   <input type="email" placeholder="Email">
                   <input type="password" placeholder="Password">
                 </form>
-                <div >
-                  <a href="#">
-                    <span class="mm-button mm-button-hd mm-button-hd1 col-white">
-                      Create your account
-                    </span>
-                  </a>
-                </div>
-                <div >
-                  <a href="#">
-                    <span class="mm-button mm-button-hd mm-button-hd2">
-                      Sing up with google
-                    </span>
-                  </a>
-                </div>
-                <div>
-                  By singing up you agree to the <a href="#">Thems of Service</a>
-                </div>
+                <div><a href="#" class="btn btn-primary mm-button">Create your account</a></div>
+                <a href="#">
+                  <div class="mm-button-hd mrgt-10">
+                    <div class="row">
+                      <div class="col-xs-2 text-left">
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-xs-8 text-center fss">
+                        Sing up with google
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="mrgt-10 fss">By singing up you agree to the <a href="#">Thems of Service</a></div>
               </div>
             </div>
           </div>
@@ -57,39 +104,33 @@
       </div>
       <!-- /header-top -->
       <!-- header-bottom -->
-      <div class="header-bottom">
+      <div class="header-bottom mm-bg-col-g">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 text-cent">
-              <div class="pdt">
-                INNOVATIVE BUISINESSES TRUST DIGITALOCEAN
+            <div class="col-xs-12 text-center">INNOVATIVE BUISINESSES TRUST DIGITALOCEAN</div>
+            <div class="col-xs-12 mm-box-log mrgt-10">
+              <div class="row">
+                <div class="col-xs-6 col-sm-2 text-center">
+                  <img src="img/loghi1/logo1.svg">
+                </div>
+                <div class="col-xs-6 col-sm-2 text-center">
+                  <img src="img/loghi1/logo2.svg">
+                </div>
+                <div class="col-xs-6 col-sm-2 text-center">
+                  <img src="img/loghi1/logo3.svg">
+                </div>
+                <div class="col-xs-6 col-sm-2 text-center">
+                  <img src="img/loghi1/logo4.svg">
+                </div>
+                <div class="col-xs-6 col-sm-2 text-center">
+                  <img src="img/loghi1/logo4.svg">
+                </div>
+                <div class="col-xs-6 col-sm-2 text-center">
+                  <img src="img/loghi1/logo6.svg">
+                </div>
               </div>
             </div>
-            <div class="box-log">
-              <div class="col-xs-6 col-sm-2 text-cent">
-                <img src="img/loghi1/logo1.svg">
-              </div>
-              <div class="col-xs-6 col-sm-2 text-cent">
-                <img src="img/loghi1/logo2.svg">
-              </div>
-              <div class="col-xs-6 col-sm-2 text-cent">
-                <img src="img/loghi1/logo3.svg">
-              </div>
-              <div class="col-xs-6 col-sm-2 text-cent">
-                <img src="img/loghi1/logo4.svg">
-              </div>
-              <div class="col-xs-6 col-sm-2 text-cent">
-                <img src="img/loghi1/logo4.svg">
-              </div>
-              <div class="col-xs-6 col-sm-2 text-cent">
-                <img src="img/loghi1/logo6.svg">
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="text-cent pdb">
-                <a href="#">View costumers stories</a>
-              </div>
-            </div>
+            <div class="col-xs-12 mrgt-10 text-center"><a href="#">View costumers stories</a></div>
           </div>
         </div>
       </div>
@@ -99,20 +140,293 @@
     <!-- main -->
     <main>
       <!-- sezione 1 main -->
-      <section class="sect1 pdt">
-        <div class="container">
-          <div class="text-cent">
-            <h3>Deploy and scale seamlessly</h3>
-            <p>Lorem ipsum dolor sit am elit, see et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla p</p>
+      <section class="sect1 container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h2>Deploy and scale seamlessly</h2>
+            <p class="mrgt-20">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
+        </div>
+        <div class="mm-cont mrgt-20">
           <div class="row">
-            
+            <div class="col-xs-12 col-sm-4">
+              <div class="mm-list">
+                <div><a href="#" class="mm-col-gray">Deploy</a></div>
+                <div><a href="#" class="mm-col-gray">Manage</a></div>
+                <div><a href="#" class="mm-col-gray">Secure</a></div>
+                <div><a href="#" class="mm-col-gray">Scale</a></div>
+                <div><a href="#" class="mm-col-gray">Monitor</a></div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              <div class="row mm-row1">
+                <div class="col-sm-6">
+                  <img src="img/loghi2/logo1.svg">
+                  <h3 class="mrgt-20">Cluster deployments</h3>
+                  <p class="mrgt-10">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI or directly against our API.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/loghi2/logo2.svg">
+                  <h3 class="mrgt-20">Optimized compute types</h3>
+                  <p class="mrgt-10">Get the compute resources you need with Standard or Optimized Droplets.</p>
+                </div>
+              </div>
+              <div class="row mm-row2 mrgt-20">
+                <div class="col-sm-6">
+                  <img src="img/loghi2/logo3.svg">
+                  <h3 class="mrgt-20">One-click app</h3>
+                  <p class="mrgt-10">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/loghi2/logo4.svg">
+                  <h3 class="mrgt-20">Global availability</h3>
+                  <p class="mrgt-10">Deploy to any of our data center regions around the world.</p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
       </section>
       <!-- /sezione 1 main -->
+      <!-- sezione 2 main -->
+      <section class="sect2 mm-bg-col-g">
+        <div class="container text-center">
+          <h2>Designed for developers</h2>
+          <p class="mrgt-20">Build more and spend less time managing your infrastructure wth our easy-yo-use control panel and API.</p>
+          <div class="sect2-content mrgt-20">
+            <span class="mm-hidden"><i class="fa fa-angle-left" aria-hidden="true"></i> </span>
+            <img src="img/image1.webp">
+            <span class="mm-hidden"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+          </div>
+          <h4>Create compute servers in 55 seconds or less.</h4>
+          <div class="cont-pallini mrgt-10">
+            <div class="pallini"></div>
+            <div class="pallini"></div>
+            <div class="pallini"></div>
+            <div class="pallini"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /sezione 2 main -->
+      <!-- sezione 3 main -->
+      <section class="sect3">
+        <div class="container">
+          <h2 class="text-center">The Features your buisiness needs</h2>
+          <div class="row mrgt-20">
+            <div class="col-xs-12 col-sm-4 pdb-mobile">
+              <img src="img/loghi3/logo1.svg">
+              <h3 class="mrgt-20">Predictable pricing</h3>
+              <p class="mrgt-10">Leave complex pricing stucture behind. Always know what you'll pay per month with a flat, industry-leading price structure.</p>
+              <a href="#">Pricing <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="col-xs-12 col-sm-4 pdb-mobile">
+              <img src="img/loghi3/logo2.svg">
+              <h3 class="mrgt-20">Wolrd-class service</h3>
+              <p class="mrgt-10">Free round-the-clock technical support for all customers. You'll fell the love.</p>
+              <a href="#">Support <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="img/loghi3/logo3.svg">
+              <h3 class="mrgt-20">Reliable platform</h3>
+              <p class="mrgt-10">More than 100,000 developer team worldwide trust DigitalOcean to support their businesses with a 99,99% uptime SLA for all services.</p>
+              <a href="#">Security <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /section 3 main -->
+      <!-- sezione 4 main -->
+      <section class="sect4">
+        <div class="container">
+          <h2 class="text-center mm-col-white">Service your customers around the world from 12 regions.</h2>
+          <div class="row fss mrgt-20">
+            <!-- prima colonna -->
+            <div class="col-xs-12 col-md-6">
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">AMS2</div>
+                <div class="col-xs-6 mm-col-lightgray">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">AMS3</div>
+                <div class="col-xs-6 mm-col-lightgray">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">AMS3</div>
+                <div class="col-xs-6 mm-col-lightgray">Bangalore, India</div>
+                <div class="col-xs-4 text-right"><a href="#"class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">FRA1</div>
+                <div class="col-xs-6 mm-col-lightgray">Frankfurt, German</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">LON1</div>
+                <div class="col-xs-6 mm-col-lightgray">London, UK</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">NYC1</div>
+                <div class="col-xs-6 mm-col-lightgray">New York, USA</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+            <!-- /prima colonna -->
+            <!-- seconda colonna -->
+            <div class="col-xs-12 col-md-6 mrg-t">
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">AMS2</div>
+                <div class="col-xs-6 mm-col-lightgray">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">AMS3</div>
+                <div class="col-xs-6 mm-col-lightgray">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">AMS3</div>
+                <div class="col-xs-6 mm-col-lightgray">Bangalore, India</div>
+                <div class="col-xs-4 text-right"><a href="#"class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">FRA1</div>
+                <div class="col-xs-6 mm-col-lightgray">Frankfurt, German</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">LON1</div>
+                <div class="col-xs-6 mm-col-lightgray">London, UK</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+              <div class="row mm-mrg-pd-bb">
+                <div class="col-xs-2 mm-col-white">NYC1</div>
+                <div class="col-xs-6 mm-col-lightgray">New York, USA</div>
+                <div class="col-xs-4 text-right"><a href="#" class="mm-col-lightgreen">Test speed <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+            <!-- /seconda colonna -->
+          </div>
+        </div>
+      </section>
+      <!-- /sezione 4 main -->
+      <!-- sezione 5 main -->
+      <section class="sect5 text-center mm-bg-col-g">
+        <div class="container">
+          <h2>Development teams love DigitalOcean</h2>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="sect5-content">
+                <span class="angle mm-hidden">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                <div class="sect5-box mm-bg-col-w">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <div class="pos-a">
+                        <img src="img/logo-rock.webp">
+                        <div class="mrgt-20">"We have been able to make scaling the technical infrastructure of our business cost effective and efficient"</div>
+                        <div class="mrgt-20"><span>Rick Otoole</span><br>Co-founder and CTO</div>
+                        <div class="mrgt-20">
+                          <a href="#">Read story <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="angle mm-hidden">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="cont-pallini mrgt-20">
+            <div class="pallini"></div>
+            <div class="pallini"></div>
+            <div class="pallini"></div>
+            <div class="pallini"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /sezione 5 main -->
+      <!-- sezione 6 main -->
+      <section class="sect6 text-center">
+
+          <h2 class="mm-col-white">Get started now.</h2>
+          <div class="mrgt-20">
+            <a class="btn btn-primary mm-bg-col-g mm-col-blue" href="#" role="button">Create your account</a>
+          </div>
+      </section>
+      <!-- /sezione 6 main -->
     </main>
     <!-- /main -->
-
-
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <img src="img/logo-footer.svg">
+            <div class="mrgt-20 fss mm-col-lightgray">© 2020 DigitalOcean, LLC. All rights reserved.</div>
+            <div class="fss mm-col-lightgray">Proudly made in NY</div>
+            <div class="mrgt-10">
+              <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+              <span><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+              <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+              <span><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></span>
+              <span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4 class="mm-col-white">Company</h4>
+            <div class="mrgt-20"><a href="#" class="mm-col-lightgray fss">About</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Leadership</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Link</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Blog</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Careers</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Partner Network</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Referral Program</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Events</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Press</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Legal & Security</a></div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4 class="mm-col-white">Products</h4>
+            <div class="mrgt-20"><a href="#" class="mm-col-lightgray fss">Droplets</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Spaces</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Kubernetes</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Load Balancers</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Block Storage</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Tools & Integrations</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">One-Click Apps</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">API</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Pricing</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Documentation</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Release Notes</a></div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4 class="mm-col-white">Community</h4>
+            <div class="mrgt-20"><a href="#" class="mm-col-lightgray fss">Tutorials</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Meetups</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Q&A</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Write for Donations</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Droplets for Demos</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Hatch</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Shop Swag</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Research Program</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Currents Research</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Open Source</a></div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4 class="mm-col-white">Support</h4>
+            <div class="mrgt-20"><a href="#" class="mm-col-lightgray fss">Contact support</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">FAQ</a></div>
+            <div><a href="#" class="mm-col-lightgray fss">Network Status</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
   </body>
 </html>
