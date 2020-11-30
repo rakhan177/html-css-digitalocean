@@ -299,10 +299,26 @@ header nav li:hover ul li{
 /* footer */
 footer{
   background-color: #010E28;
+  position: relative;
 }
-footer span{
+footer .mrgt-10 span{
   font-size: 30px;
   margin-right: 8px;
+}
+footer .shark > div{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+footer .shark{
+  position: relative;
+}
+footer .shark span{
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
 }
 /* /footer */
 @media screen and (max-width: 768px){
