@@ -123,13 +123,10 @@ nav li{
 nav ul a{
   color: black;
 }
-
-
-/* ????????? */
 nav li ul{
   display: none;
 }
-header nav li:hover ul {
+nav li:hover ul {
   display: block;
   position: absolute;
   top: 20px;
@@ -141,34 +138,41 @@ header nav li:hover ul {
 li ul.list-2{
   width: 160px;
 }
-header nav li:hover ul li{
+nav li:hover ul li{
   margin-left: 0;
 }
-
 .mm-burger-list{
   display:none;
+  position: absolute;
+  top: 60px;
+  left: -70px;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 10px;
+}
+.mm-burger-list li{
+  height: 30px;
+  line-height: 30px;
+  display: block;
 }
 .mm-burger:hover .mm-burger-list{
   display: block;
-  position: absolute;
-  top: 200px;
-  left: -80px;
-  z-index: 50000000
-  border: 1px solid black;
-  }
-/* ?????? */
-
+}
 .mm-burger{
     display: none;
     font-size: 40px;
     position: relative;
   }
 /* /nav */
+.mm-container{
+  position: relative;
+  top: 80px;
+}
+/* header */
 /* header-top */
 .header-top{
   background-image: url("../img/sfondo.jpg");
-  position: relative;
-  top: 80px;
+
 }
 .header-box{
   padding: 40px 15px;
@@ -218,7 +222,7 @@ header nav li:hover ul li{
   height: 40px;
 }
 .mm-cont a:hover{
-  color: red;
+  color: #00d7d2;
 }
 .sect1 .mm-list{
   border-left: 1px solid gray;
@@ -401,6 +405,9 @@ footer .shark span{
   /* footer */
   footer h4{
     margin-top: 20px;
+  }
+  .shark .fss{
+    display: none;
   }
   /* /footer */
 }
